@@ -1,0 +1,47 @@
+.landing-root {
+    -fx-background-color: #eef2f7;
+}
+
+.sidebar {
+    -fx-background-color: #0f172a;
+}
+
+.sidebar-title {
+    -fx-text-fill: white;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cbd5e1;
+    -fx-alignment: center-left;
+    -fx-padding: 12 14;
+}
+
+.nav-button-active {
+    -fx-background-color: #4f46e5;
+    -fx-text-fill: white;
+}
+
+.content-area {
+    -fx-background-color: transparent;
+}
+
+.page-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.page-subtitle {
+    -fx-text-fill: #64748b;
+}
+
+.hero-card,
+.mini-card,
+.stat-card,
+.panel-card {
+    -fx-background-color: white;
+    -fx-background-radius: 24;
+    -fx-padding: 20;
+}
