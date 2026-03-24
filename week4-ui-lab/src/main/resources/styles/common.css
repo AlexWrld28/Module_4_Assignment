@@ -1,0 +1,82 @@
+.root {
+    -fx-font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #0f172a;
+}
+
+.text-field,
+.password-field {
+    -fx-background-color: #f8fafc;
+    -fx-border-color: #dbe3ef;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 12 14;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused,
+.password-field:focused {
+    -fx-border-color: #6366f1;
+    -fx-background-color: white;
+}
+
+.check-box {
+    -fx-text-fill: #475569;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-background-radius: 14;
+    -fx-padding: 12 18;
+}
+
+.primary-button {
+    -fx-background-color: linear-gradient(to right, #4f46e5, #7c3aed);
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-opacity: 0.92;
+}
+
+.secondary-button {
+    -fx-background-color: white;
+    -fx-border-color: #dbe3ef;
+    -fx-border-radius: 14;
+    -fx-text-fill: #0f172a;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #f8fafc;
+}
+
+.large-button {
+    -fx-font-size: 15px;
+    -fx-padding: 14 26;
+}
+
+.full-width {
+    -fx-alignment: center;
+}
+
+.hyperlink,
+.subtle-link,
+.inline-link {
+    -fx-border-color: transparent;
+    -fx-text-fill: #4f46e5;
+    -fx-padding: 0;
+}
+
+.hyperlink:hover,
+.subtle-link:hover,
+.inline-link:hover {
+    -fx-underline: true;
+}
+
+.small-muted {
+    -fx-text-fill: #64748b;
+}
