@@ -1,0 +1,67 @@
+.auth-root {
+    -fx-background-color: #f8fafc;
+}
+
+.branding-pane {
+    -fx-background-color: linear-gradient(to bottom right, #312e81, #4338ca, #7c3aed);
+}
+
+.eyebrow-label {
+    -fx-text-fill: #c7d2fe;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.branding-title {
+    -fx-text-fill: white;
+    -fx-font-size: 34px;
+    -fx-font-weight: 800;
+}
+
+.branding-subtitle {
+    -fx-text-fill: rgba(255,255,255,0.84);
+    -fx-font-size: 15px;
+}
+
+.feature-card {
+    -fx-background-color: rgba(255,255,255,0.14);
+    -fx-background-radius: 22;
+    -fx-padding: 20;
+    -fx-spacing: 8;
+}
+
+.feature-card .label,
+.feature-title,
+.feature-detail {
+    -fx-text-fill: white;
+}
+
+.feature-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+}
+
+.feature-detail {
+    -fx-opacity: 0.92;
+}
+
+.form-pane {
+    -fx-padding: 30;
+}
+
+.form-card {
+    -fx-background-color: white;
+    -fx-background-radius: 24;
+    -fx-padding: 28;
+    -fx-effect: dropshadow(gaussian, rgba(15, 23, 42, 0.10), 24, 0.2, 0, 10);
+}
+
+.form-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.form-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #64748b;
+}
